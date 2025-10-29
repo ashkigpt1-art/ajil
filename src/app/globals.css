@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: only light;
+}
+
+body {
+  @apply bg-sand-50 text-cocoa-800 font-sans antialiased;
+}
+
+a {
+  @apply text-amber-500;
+}
+
+a:hover {
+  @apply text-cocoa-600;
+}
+
+.section-container {
+  @apply mx-auto max-w-5xl px-4 py-12;
+}
+
+.card {
+  @apply bg-white rounded-4xl shadow-warm p-6;
+}
